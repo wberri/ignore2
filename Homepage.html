@@ -9,7 +9,9 @@
     <link rel="icon" href="icon.png" type="image/x-icon">
 </head>
 
+<!--menu bar. Used a div for this to edit in css file for all the different html pages-->
 <div class= "menu"><center><strong>
+    <!--relative links-->
     <a href="Homepage.html"> Homepage</a>
     <a href="favorites.html"> Favorites</a>
     <a href="skills.html"> Skills</a>
@@ -22,17 +24,26 @@
 </div>
 
 <body>
-    <h2> Hi, my name is Wafa.</h2>
+    <h2> Hi, my name is <span style="color:rgb(226,109,92);">Wafa</span> </h2>
 
     <div class=" intro">
 
         <ul> 
             <li>I'm a Brooklyn kid.</li>
             <li>I love cats. They are my favorite animal.</li>
+            <!--absolute link-->
             <li>Here's a fun game I play: <a href="https://slither.io/">Slitherio</a> </li>
         </ul>
     </div>
 
+    <!--I used a text art generator to make a cat-->
+    <form>
+    <input type="button" onclick="alert('░░░░▐█▄░░░░░░░░░░░░░░░█▌░░░░\n░░░░▐░░█░░░░░░░░░░░░░█░█░░░░\n░░░░▐░░▐██▀▀▀▀▀▀▀▀███░░▐░░░░\n░░░░▐░█▀░░░░░░░░░░░░░▀██░░░░\n░░░░░█░░░░░█░░░░▐▌░░░░░█░░░░\n░░░░▐░░░░░░░░░░░░░░░░░░▐░░░░\n░░░░▐░░░░▐░░░░▌░░░█░░░░▐░░░░\n░░░░░█▄░░░█▄▄▄█▄▄█░░░░░█░░░░\n░░░░░░░▀▀█▄▄▄▄▄▄▄▄▄▄▄█▀░░░░░')" value="Click me to see something cool!">
+   </form>
+
+   <p> <span style="font-size: 12px">(That was text art)</span></p>
+
+   <!--copyright on every page-->
     <p>© 2023 Wafa's Cool Website</p>
 
 </body>
